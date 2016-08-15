@@ -1,0 +1,277 @@
+/**************************STYLES MOBILE FIRST************************/
+
+/*********************MAIN*********************/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	}
+
+body, 
+#nav {
+	color: #fff;
+	text-align: center;	
+	}
+
+#nav{
+	background-color: #fff;
+	opacity: .9;
+	width: 100%;
+	height: 100px;
+	padding: 0 5px 10px 0;
+	text-align: right;
+	position: fixed;
+	z-index: 100;
+	}
+
+
+p, h3 {
+	color: #000;
+	}
+
+ul li a {
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	}
+
+ul {
+	list-style: none;
+	}
+
+ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+	}
+
+
+
+footer {
+	border-top: 2px solid #000;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+
+
+
+
+/************************** NAV BAR ************************/
+
+#nav a {
+	padding: 0 7px;
+	letter-spacing: 2px;
+	}
+
+
+#nav { 
+		display:none;
+		}
+	
+	.slicknav_menu {
+		display:block;
+		letter-spacing: 2px;
+		}
+
+	.slicknav_menu ul {
+			height: 365px;
+		}
+
+	.slicknav_menu li:focus {
+		width: 100%;
+		background-color: #0a7bdf;
+		border-radius: 10px;
+		}
+
+	.slicknav_menu li a:focus {
+		color: #0a7bdf;
+		}
+
+/************************** ADDRESS AND HOURS************************/
+
+.maininfo{
+	margin-top: 50px;
+	}
+
+#address {
+	margin-top: 40px;
+	}
+
+#hours {
+	width: 600px;
+	margin: 10px 10px;
+	text-align: left;
+	}
+
+/************************** MAIN IMAGE ************************/
+
+#mainimg {
+	width: 100%;
+	height: auto;
+	margin-top: -60px;
+	}
+
+
+
+/************************** IMAGE SLIDER / FADE ************************/
+.fade {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	}
+
+.fade img {
+	height: 200px;
+	width: auto;
+	padding: 0 2px;
+}
+
+
+/************************** ABOUT/ OUR MISSION ************************/
+
+.about {
+	width: 90%;
+	margin:  100px auto;
+	text-align: left;
+	}
+.about h3 {
+	padding-bottom: 35px;
+}
+.about p {
+	line-height: 32px;
+}
+
+
+
+
+/**************************SOCIAL ICONS IN FOOTER ************************/
+
+
+.contact.social img {
+	display: inline-block;
+	}
+
+.social img {
+	height: 40px;
+	width: auto;
+	margin: -5px;
+}
+
+.social img:hover {
+	background-color: #BCC0C2;
+	width: auto;
+	border-radius: 100%;
+	opacity: 0.9;
+}
+
+
+
+
+
+
+
+/**********************************MEDIA QUERIES**********************************/
+
+@media only screen and (min-width: 768px) {
+	#nav {
+		display:block;
+		-webkit-box-shadow: -2px 5px 16px -2px rgba(21,22,26,1);
+		-moz-box-shadow: -2px 5px 16px -2px rgba(21,22,26,1);
+		box-shadow: -2px 5px 16px -2px rgba(21,22,26,1);
+	}
+	
+	.slicknav_menu {
+	display: none;	
+	}
+
+	#mainimg {
+		width: 100%;
+		height: auto;
+		margin-top: 110px;
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+
+	#logonav img {
+		height: 60px;
+		width: auto;
+		padding: 25px;
+		float: left;
+	}
+
+ul li {
+	margin-top: 15px;
+	padding: 25px;
+	text-align: right;
+	}
+
+
+.maininfo {
+	height: 200px;
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 30px 0;
+	}
+
+.info {
+	width: 300px;
+	padding: 10px 20px;
+	}
+
+.info p {
+	padding: 20px 0;
+	line-height: 200%;
+}
+
+#address {
+	margin-top: 0;
+	border-left: 2pt solid #1A1A1A;
+}
+
+	.social img {
+	height: 50px;
+	}
+
+.fade img {
+	height: 300px;
+	width: auto;
+	padding: 0 9px;
+	}
+
+
+.about {
+	width: 65%;
+	margin: 80px auto;
+	}
+
+	#nav a:hover {
+		color: #0a7bdf;
+		padding-bottom: 9px;
+	}
+
+footer {
+	position: relative;
+	}
+
+	.link_target {
+		position: absolute;
+		top: -245px;
+	} 
+
+	.hack {
+		position: relative;
+	}	
+
+
+}
+
+
+
+
+
+
