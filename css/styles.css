@@ -64,17 +64,17 @@ footer {
 #nav a {
 	padding: 0 7px;
 	letter-spacing: 2px;
-	}
+}
 
 
 #nav { 
-		display:none;
-		}
+	display:none;
+}
 	
-	.slicknav_menu {
+.slicknav_menu {
 		display:block;
 		letter-spacing: 2px;
-		}
+}
 
 	.slicknav_menu ul {
 			height: 365px;
@@ -84,11 +84,11 @@ footer {
 		width: 100%;
 		background-color: #0a7bdf;
 		border-radius: 10px;
-		}
+	}
 
 	.slicknav_menu li a:focus {
 		color: #0a7bdf;
-		}
+	}
 
 /************************** ADDRESS AND HOURS************************/
 
