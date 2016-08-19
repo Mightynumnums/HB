@@ -68,7 +68,8 @@
   .slicknav_nav .slicknav_row {
     display: block; }
   .slicknav_nav a {
-    display: block; }
+    display: block;
+    font-family: 'Allerta Stencil', sans-serif; }
   .slicknav_nav .slicknav_parent-link a {
     display: inline; }
 
