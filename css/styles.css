@@ -12,7 +12,7 @@
 body, 
 #nav {
 	color: #fff;
-	text-align: center;	
+	text-align: center;
 	}
 
 #nav{
@@ -56,6 +56,24 @@ footer {
 	padding-bottom: 50px;
 	}
 
+.bringmeback {
+	width: 200px;
+	margin: 40px auto;
+	padding: 15px;
+	font-size: 12px;
+	
+}
+
+.bringmeback a {
+	text-decoration: none;
+	color: #010101;
+}
+
+#OV {
+	margin-top: -70px;
+	
+}
+
 
 
 
@@ -94,7 +112,12 @@ footer {
 
 .maininfo{
 	margin-top: 50px;
+	margin-bottom: 50px;
 	}
+
+.info a {
+	text-decoration: none;
+}
 
 #address {
 	margin-top: 40px;
@@ -215,7 +238,8 @@ ul li {
 	flex-direction: row wrap;
 	justify-content: center;
 	align-items: flex-start;
-	margin: 30px 0;
+	margin: 20px 0;
+	padding-top: 30px;
 	}
 
 .info {
@@ -252,6 +276,10 @@ ul li {
 	#nav a:hover {
 		color: #0a7bdf;
 		padding-bottom: 9px;
+	}
+
+	#OV {
+		display: none;
 	}
 
 footer {
